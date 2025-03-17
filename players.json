@@ -1,0 +1,1660 @@
+{
+    "equipos": [
+      {
+        "id": 1,
+        "name": "Real Madrid",
+        "yearfoundation": "1902",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "26",
+            "pe": "8",
+            "pp": "4",
+            "gf": "70",
+            "gc": "25",
+            "tp": "86"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Thibaut Courtois",
+            "nationality": "Belga",
+            "age": "30",
+            "height": "199",
+            "weight": "96",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Sergio Ramos",
+            "nationality": "Español",
+            "age": "36",
+            "height": "184",
+            "weight": "82",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Karim Benzema",
+            "nationality": "Francés",
+            "age": "34",
+            "height": "185",
+            "weight": "81",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Carlo Ancelotti"
+      },
+      {
+        "id": 2,
+        "name": "FC Barcelona",
+        "yearfoundation": "1899",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "24",
+            "pe": "7",
+            "pp": "7",
+            "gf": "68",
+            "gc": "38",
+            "tp": "79"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Marc-André ter Stegen",
+            "nationality": "Alemán",
+            "age": "30",
+            "height": "187",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "3",
+            "name": "Gerard Piqué",
+            "nationality": "Español",
+            "age": "35",
+            "height": "194",
+            "weight": "85",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "10",
+            "name": "Lionel Messi",
+            "nationality": "Argentino",
+            "age": "34",
+            "height": "170",
+            "weight": "72",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Xavi Hernández"
+      },
+      {
+        "id": 3,
+        "name": "Manchester United",
+        "yearfoundation": "1878",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "21",
+            "pe": "9",
+            "pp": "8",
+            "gf": "73",
+            "gc": "44",
+            "tp": "72"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "David de Gea",
+            "nationality": "Español",
+            "age": "31",
+            "height": "192",
+            "weight": "82",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "5",
+            "name": "Harry Maguire",
+            "nationality": "Inglés",
+            "age": "29",
+            "height": "194",
+            "weight": "100",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Cristiano Ronaldo",
+            "nationality": "Portugués",
+            "age": "37",
+            "height": "187",
+            "weight": "85",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Erik ten Hag"
+      },
+      {
+        "id": 4,
+        "name": "Bayern Munich",
+        "yearfoundation": "1900",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "24",
+            "pe": "6",
+            "pp": "4",
+            "gf": "82",
+            "gc": "32",
+            "tp": "78"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Manuel Neuer",
+            "nationality": "Alemán",
+            "age": "36",
+            "height": "193",
+            "weight": "92",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "9",
+            "name": "Robert Lewandowski",
+            "nationality": "Polaco",
+            "age": "33",
+            "height": "185",
+            "weight": "81",
+            "position": "Delantero"
+          },
+          {
+            "dorsal": "25",
+            "name": "Thomas Müller",
+            "nationality": "Alemán",
+            "age": "32",
+            "height": "181",
+            "weight": "75",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Julian Nagelsmann"
+      },
+      {
+        "id": 5,
+        "name": "Liverpool FC",
+        "yearfoundation": "1892",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "23",
+            "pe": "9",
+            "pp": "6",
+            "gf": "68",
+            "gc": "42",
+            "tp": "78"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Alisson Becker",
+            "nationality": "Brasileño",
+            "age": "29",
+            "height": "191",
+            "weight": "91",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Virgil van Dijk",
+            "nationality": "Holandés",
+            "age": "30",
+            "height": "193",
+            "weight": "92",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "11",
+            "name": "Mohamed Salah",
+            "nationality": "Egipcio",
+            "age": "29",
+            "height": "175",
+            "weight": "71",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Jürgen Klopp"
+      },
+      {
+        "id": 6,
+        "name": "Paris Saint-Germain",
+        "yearfoundation": "1970",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "26",
+            "pe": "8",
+            "pp": "4",
+            "gf": "86",
+            "gc": "28",
+            "tp": "86"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Gianluigi Donnarumma",
+            "nationality": "Italiano",
+            "age": "23",
+            "height": "196",
+            "weight": "90",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "7",
+            "name": "Kylian Mbappé",
+            "nationality": "Francés",
+            "age": "23",
+            "height": "178",
+            "weight": "73",
+            "position": "Delantero"
+          },
+          {
+            "dorsal": "30",
+            "name": "Lionel Messi",
+            "nationality": "Argentino",
+            "age": "34",
+            "height": "170",
+            "weight": "72",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Christophe Galtier"
+      },
+      {
+        "id": 7,
+        "name": "Chelsea FC",
+        "yearfoundation": "1905",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "21",
+            "pe": "11",
+            "pp": "6",
+            "gf": "76",
+            "gc": "33",
+            "tp": "74"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Edouard Mendy",
+            "nationality": "Senegalés",
+            "age": "30",
+            "height": "194",
+            "weight": "86",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Thiago Silva",
+            "nationality": "Brasileño",
+            "age": "37",
+            "height": "183",
+            "weight": "79",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "19",
+            "name": "Mason Mount",
+            "nationality": "Inglés",
+            "age": "23",
+            "height": "178",
+            "weight": "70",
+            "position": "Centrocampista"
+          }
+        ],
+        "coach": "Graham Potter"
+      },
+      {
+        "id": 8,
+        "name": "Manchester City",
+        "yearfoundation": "1880",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "27",
+            "pe": "5",
+            "pp": "6",
+            "gf": "83",
+            "gc": "32",
+            "tp": "86"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "31",
+            "name": "Ederson Moraes",
+            "nationality": "Brasileño",
+            "age": "28",
+            "height": "188",
+            "weight": "86",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "17",
+            "name": "Kevin De Bruyne",
+            "nationality": "Belga",
+            "age": "30",
+            "height": "181",
+            "weight": "70",
+            "position": "Centrocampista"
+          },
+          {
+            "dorsal": "9",
+            "name": "Erling Haaland",
+            "nationality": "Noruego",
+            "age": "22",
+            "height": "194",
+            "weight": "88",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Pep Guardiola"
+      },
+      {
+        "id": 9,
+        "name": "Juventus FC",
+        "yearfoundation": "1897",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "20",
+            "pe": "10",
+            "pp": "8",
+            "gf": "57",
+            "gc": "37",
+            "tp": "70"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Wojciech Szczęsny",
+            "nationality": "Polaco",
+            "age": "32",
+            "height": "195",
+            "weight": "90",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "19",
+            "name": "Leonardo Bonucci",
+            "nationality": "Italiano",
+            "age": "35",
+            "height": "190",
+            "weight": "85",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "10",
+            "name": "Paul Pogba",
+            "nationality": "Francés",
+            "age": "29",
+            "height": "191",
+            "weight": "84",
+            "position": "Centrocampista"
+          }
+        ],
+        "coach": "Massimiliano Allegri"
+      },
+      {
+        "id": 10,
+        "name": "Inter Milan",
+        "yearfoundation": "1908",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "22",
+            "pe": "9",
+            "pp": "7",
+            "gf": "64",
+            "gc": "29",
+            "tp": "75"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Samir Handanović",
+            "nationality": "Esloveno",
+            "age": "37",
+            "height": "193",
+            "weight": "89",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "9",
+            "name": "Edin Džeko",
+            "nationality": "Bosnio",
+            "age": "36",
+            "height": "193",
+            "weight": "80",
+            "position": "Delantero"
+          },
+          {
+            "dorsal": "23",
+            "name": "Nicolò Barella",
+            "nationality": "Italiano",
+            "age": "25",
+            "height": "172",
+            "weight": "68",
+            "position": "Centrocampista"
+          }
+        ],
+        "coach": "Simone Inzaghi"
+      },
+      {
+        "id": 11,
+        "name": "Atlético Madrid",
+        "yearfoundation": "1903",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "21",
+            "pe": "8",
+            "pp": "9",
+            "gf": "62",
+            "gc": "34",
+            "tp": "71"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "13",
+            "name": "Jan Oblak",
+            "nationality": "Esloveno",
+            "age": "29",
+            "height": "188",
+            "weight": "87",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "2",
+            "name": "José Giménez",
+            "nationality": "Uruguayo",
+            "age": "27",
+            "height": "185",
+            "weight": "80",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "João Félix",
+            "nationality": "Portugués",
+            "age": "22",
+            "height": "181",
+            "weight": "70",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Diego Simeone"
+      },
+      {
+        "id": 12,
+        "name": "Borussia Dortmund",
+        "yearfoundation": "1909",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "22",
+            "pe": "5",
+            "pp": "7",
+            "gf": "85",
+            "gc": "52",
+            "tp": "71"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Gregor Kobel",
+            "nationality": "Suizo",
+            "age": "24",
+            "height": "194",
+            "weight": "88",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "13",
+            "name": "Raphaël Guerreiro",
+            "nationality": "Portugués",
+            "age": "28",
+            "height": "170",
+            "weight": "67",
+            "position": "Lateral"
+          },
+          {
+            "dorsal": "9",
+            "name": "Erling Haaland",
+            "nationality": "Noruego",
+            "age": "22",
+            "height": "194",
+            "weight": "88",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Edin Terzić"
+      },
+      {
+        "id": 13,
+        "name": "Ajax Amsterdam",
+        "yearfoundation": "1900",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "26",
+            "pe": "4",
+            "pp": "4",
+            "gf": "98",
+            "gc": "19",
+            "tp": "82"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "24",
+            "name": "Andre Onana",
+            "nationality": "Camerunés",
+            "age": "26",
+            "height": "190",
+            "weight": "93",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "3",
+            "name": "Jurriën Timber",
+            "nationality": "Holandés",
+            "age": "21",
+            "height": "182",
+            "weight": "79",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "10",
+            "name": "Dusan Tadić",
+            "nationality": "Serbio",
+            "age": "33",
+            "height": "181",
+            "weight": "76",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Alfred Schreuder"
+      },
+      {
+        "id": 14,
+        "name": "Tottenham Hotspur",
+        "yearfoundation": "1882",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "22",
+            "pe": "5",
+            "pp": "11",
+            "gf": "69",
+            "gc": "40",
+            "tp": "71"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Hugo Lloris",
+            "nationality": "Francés",
+            "age": "35",
+            "height": "188",
+            "weight": "82",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "7",
+            "name": "Son Heung-min",
+            "nationality": "Surcoreano",
+            "age": "30",
+            "height": "183",
+            "weight": "77",
+            "position": "Delantero"
+          },
+          {
+            "dorsal": "10",
+            "name": "Harry Kane",
+            "nationality": "Inglés",
+            "age": "29",
+            "height": "188",
+            "weight": "89",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Antonio Conte"
+      },
+      {
+        "id": 15,
+        "name": "Arsenal FC",
+        "yearfoundation": "1886",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "22",
+            "pe": "3",
+            "pp": "13",
+            "gf": "61",
+            "gc": "48",
+            "tp": "69"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "32",
+            "name": "Aaron Ramsdale",
+            "nationality": "Inglés",
+            "age": "24",
+            "height": "188",
+            "weight": "77",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Ben White",
+            "nationality": "Inglés",
+            "age": "25",
+            "height": "186",
+            "weight": "77",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Bukayo Saka",
+            "nationality": "Inglés",
+            "age": "21",
+            "height": "178",
+            "weight": "65",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Mikel Arteta"
+      },
+      {
+        "id": 16,
+        "name": "Sevilla FC",
+        "yearfoundation": "1890",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "18",
+            "pe": "12",
+            "pp": "8",
+            "gf": "53",
+            "gc": "37",
+            "tp": "66"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "13",
+            "name": "Yassine Bounou",
+            "nationality": "Marroquí",
+            "age": "31",
+            "height": "195",
+            "weight": "86",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "20",
+            "name": "Diego Carlos",
+            "nationality": "Brasileño",
+            "age": "29",
+            "height": "185",
+            "weight": "79",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "5",
+            "name": "Lucas Ocampos",
+            "nationality": "Argentino",
+            "age": "28",
+            "height": "187",
+            "weight": "78",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Jorge Sampaoli"
+      },
+      {
+        "id": 17,
+        "name": "RB Leipzig",
+        "yearfoundation": "2009",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "17",
+            "pe": "7",
+            "pp": "10",
+            "gf": "72",
+            "gc": "37",
+            "tp": "58"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Péter Gulácsi",
+            "nationality": "Húngaro",
+            "age": "32",
+            "height": "191",
+            "weight": "87",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "2",
+            "name": "Mohamed Simakan",
+            "nationality": "Francés",
+            "age": "22",
+            "height": "187",
+            "weight": "80",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "18",
+            "name": "Christopher Nkunku",
+            "nationality": "Francés",
+            "age": "25",
+            "height": "177",
+            "weight": "69",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Marco Rose"
+      },
+      {
+        "id": 18,
+        "name": "FC Porto",
+        "yearfoundation": "1893",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "29",
+            "pe": "4",
+            "pp": "1",
+            "gf": "74",
+            "gc": "22",
+            "tp": "91"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "99",
+            "name": "Diogo Costa",
+            "nationality": "Portugués",
+            "age": "23",
+            "height": "186",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "3",
+            "name": "Pepe",
+            "nationality": "Portugués",
+            "age": "39",
+            "height": "188",
+            "weight": "81",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Mehdi Taremi",
+            "nationality": "Iraní",
+            "age": "30",
+            "height": "187",
+            "weight": "79",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Sérgio Conceição"
+      },
+      {
+        "id": 19,
+        "name": "Benfica",
+        "yearfoundation": "1904",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "23",
+            "pe": "5",
+            "pp": "6",
+            "gf": "78",
+            "gc": "30",
+            "tp": "74"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "99",
+            "name": "Odisseas Vlachodimos",
+            "nationality": "Griego",
+            "age": "28",
+            "height": "191",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "30",
+            "name": "Nicolás Otamendi",
+            "nationality": "Argentino",
+            "age": "34",
+            "height": "183",
+            "weight": "81",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "27",
+            "name": "Rafa Silva",
+            "nationality": "Portugués",
+            "age": "29",
+            "height": "170",
+            "weight": "62",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Roger Schmidt"
+      },
+      {
+        "id": 20,
+        "name": "Napoli",
+        "yearfoundation": "1926",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "24",
+            "pe": "7",
+            "pp": "7",
+            "gf": "74",
+            "gc": "31",
+            "tp": "79"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Alex Meret",
+            "nationality": "Italiano",
+            "age": "25",
+            "height": "190",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "26",
+            "name": "Kalidou Koulibaly",
+            "nationality": "Senegalés",
+            "age": "31",
+            "height": "195",
+            "weight": "89",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "21",
+            "name": "Matteo Politano",
+            "nationality": "Italiano",
+            "age": "29",
+            "height": "171",
+            "weight": "65",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Luciano Spalletti"
+      },
+      {
+        "id": 21,
+        "name": "AC Milan",
+        "yearfoundation": "1899",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "24",
+            "pe": "8",
+            "pp": "6",
+            "gf": "69",
+            "gc": "31",
+            "tp": "80"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "16",
+            "name": "Mike Maignan",
+            "nationality": "Francés",
+            "age": "27",
+            "height": "191",
+            "weight": "89",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "23",
+            "name": "Fikayo Tomori",
+            "nationality": "Inglés",
+            "age": "25",
+            "height": "185",
+            "weight": "78",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Olivier Giroud",
+            "nationality": "Francés",
+            "age": "36",
+            "height": "193",
+            "weight": "91",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Stefano Pioli"
+      },
+      {
+        "id": 22,
+        "name": "AS Roma",
+        "yearfoundation": "1927",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "18",
+            "pe": "9",
+            "pp": "11",
+            "gf": "59",
+            "gc": "43",
+            "tp": "63"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Rui Patrício",
+            "nationality": "Portugués",
+            "age": "34",
+            "height": "190",
+            "weight": "84",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Chris Smalling",
+            "nationality": "Inglés",
+            "age": "33",
+            "height": "194",
+            "weight": "81",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Lorenzo Pellegrini",
+            "nationality": "Italiano",
+            "age": "26",
+            "height": "186",
+            "weight": "77",
+            "position": "Centrocampista"
+          }
+        ],
+        "coach": "José Mourinho"
+      },
+      {
+        "id": 23,
+        "name": "Villarreal CF",
+        "yearfoundation": "1923",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "16",
+            "pe": "11",
+            "pp": "11",
+            "gf": "63",
+            "gc": "37",
+            "tp": "59"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "13",
+            "name": "Gerónimo Rulli",
+            "nationality": "Argentino",
+            "age": "30",
+            "height": "189",
+            "weight": "82",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "3",
+            "name": "Raúl Albiol",
+            "nationality": "Español",
+            "age": "37",
+            "height": "190",
+            "weight": "82",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Gerard Moreno",
+            "nationality": "Español",
+            "age": "30",
+            "height": "180",
+            "weight": "72",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Unai Emery"
+      },
+      {
+        "id": 24,
+        "name": "Bayer Leverkusen",
+        "yearfoundation": "1904",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "19",
+            "pe": "7",
+            "pp": "8",
+            "gf": "80",
+            "gc": "47",
+            "tp": "64"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Lukáš Hrádecký",
+            "nationality": "Finlandés",
+            "age": "33",
+            "height": "192",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Jonathan Tah",
+            "nationality": "Alemán",
+            "age": "26",
+            "height": "195",
+            "weight": "95",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "19",
+            "name": "Moussa Diaby",
+            "nationality": "Francés",
+            "age": "23",
+            "height": "170",
+            "weight": "63",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Xabi Alonso"
+      },
+      {
+        "id": 25,
+        "name": "Atalanta",
+        "yearfoundation": "1907",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "20",
+            "pe": "7",
+            "pp": "11",
+            "gf": "78",
+            "gc": "47",
+            "tp": "67"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Juan Musso",
+            "nationality": "Argentino",
+            "age": "28",
+            "height": "191",
+            "weight": "88",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "2",
+            "name": "Rafael Tolói",
+            "nationality": "Brasileño",
+            "age": "32",
+            "height": "185",
+            "weight": "78",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Duván Zapata",
+            "nationality": "Colombiano",
+            "age": "31",
+            "height": "189",
+            "weight": "86",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Gian Piero Gasperini"
+      },
+      {
+        "id": 26,
+        "name": "Leicester City",
+        "yearfoundation": "1884",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "14",
+            "pe": "10",
+            "pp": "14",
+            "gf": "62",
+            "gc": "59",
+            "tp": "52"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Kasper Schmeichel",
+            "nationality": "Danés",
+            "age": "36",
+            "height": "189",
+            "weight": "89",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Jonny Evans",
+            "nationality": "Norirlandés",
+            "age": "34",
+            "height": "188",
+            "weight": "77",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Jamie Vardy",
+            "nationality": "Inglés",
+            "age": "35",
+            "height": "179",
+            "weight": "74",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Brendan Rodgers"
+      },
+      {
+        "id": 27,
+        "name": "Olympique Lyonnais",
+        "yearfoundation": "1950",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "17",
+            "pe": "11",
+            "pp": "10",
+            "gf": "66",
+            "gc": "51",
+            "tp": "62"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Anthony Lopes",
+            "nationality": "Portugués",
+            "age": "32",
+            "height": "184",
+            "weight": "76",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Castello Lukeba",
+            "nationality": "Francés",
+            "age": "20",
+            "height": "184",
+            "weight": "75",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "7",
+            "name": "Alexandre Lacazette",
+            "nationality": "Francés",
+            "age": "31",
+            "height": "175",
+            "weight": "73",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Laurent Blanc"
+      },
+      {
+        "id": 28,
+        "name": "Eintracht Frankfurt",
+        "yearfoundation": "1899",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "16",
+            "pe": "8",
+            "pp": "10",
+            "gf": "58",
+            "gc": "52",
+            "tp": "56"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Kevin Trapp",
+            "nationality": "Alemán",
+            "age": "32",
+            "height": "189",
+            "weight": "88",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "13",
+            "name": "Martin Hinteregger",
+            "nationality": "Austriaco",
+            "age": "30",
+            "height": "184",
+            "weight": "82",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "19",
+            "name": "Rafael Santos Borré",
+            "nationality": "Colombiano",
+            "age": "27",
+            "height": "174",
+            "weight": "70",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Oliver Glasner"
+      },
+      {
+        "id": 29,
+        "name": "Sporting CP",
+        "yearfoundation": "1906",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "23",
+            "pe": "5",
+            "pp": "6",
+            "gf": "69",
+            "gc": "29",
+            "tp": "74"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Antonio Adán",
+            "nationality": "Español",
+            "age": "35",
+            "height": "190",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Sebastián Coates",
+            "nationality": "Uruguayo",
+            "age": "32",
+            "height": "196",
+            "weight": "93",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "17",
+            "name": "Pedro Gonçalves",
+            "nationality": "Portugués",
+            "age": "24",
+            "height": "173",
+            "weight": "64",
+            "position": "Centrocampista"
+          }
+        ],
+        "coach": "Rúben Amorim"
+      },
+      {
+        "id": 30,
+        "name": "Shakhtar Donetsk",
+        "yearfoundation": "1936",
+        "statistics": [
+          {
+            "pj": "26",
+            "pg": "18",
+            "pe": "6",
+            "pp": "2",
+            "gf": "59",
+            "gc": "22",
+            "tp": "60"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "81",
+            "name": "Anatoliy Trubin",
+            "nationality": "Ucraniano",
+            "age": "21",
+            "height": "199",
+            "weight": "86",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "22",
+            "name": "Mykola Matviyenko",
+            "nationality": "Ucraniano",
+            "age": "26",
+            "height": "182",
+            "weight": "76",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "11",
+            "name": "Marlos",
+            "nationality": "Ucraniano",
+            "age": "34",
+            "height": "174",
+            "weight": "70",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Igor Jovićević"
+      },
+      {
+        "id": 31,
+        "name": "Celtic FC",
+        "yearfoundation": "1888",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "29",
+            "pe": "6",
+            "pp": "3",
+            "gf": "92",
+            "gc": "22",
+            "tp": "93"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Joe Hart",
+            "nationality": "Inglés",
+            "age": "35",
+            "height": "196",
+            "weight": "89",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "20",
+            "name": "Cameron Carter-Vickers",
+            "nationality": "Estadounidense",
+            "age": "25",
+            "height": "185",
+            "weight": "88",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Kyogo Furuhashi",
+            "nationality": "Japonés",
+            "age": "27",
+            "height": "170",
+            "weight": "63",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Ange Postecoglou"
+      },
+      {
+        "id": 32,
+        "name": "Rangers FC",
+        "yearfoundation": "1872",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "27",
+            "pe": "8",
+            "pp": "3",
+            "gf": "80",
+            "gc": "31",
+            "tp": "89"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Allan McGregor",
+            "nationality": "Escocés",
+            "age": "41",
+            "height": "183",
+            "weight": "78",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Connor Goldson",
+            "nationality": "Inglés",
+            "age": "30",
+            "height": "193",
+            "weight": "85",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "14",
+            "name": "Ryan Kent",
+            "nationality": "Inglés",
+            "age": "26",
+            "height": "172",
+            "weight": "68",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Michael Beale"
+      },
+      {
+        "id": 33,
+        "name": "Dinamo Zagreb",
+        "yearfoundation": "1911",
+        "statistics": [
+          {
+            "pj": "36",
+            "pg": "24",
+            "pe": "7",
+            "pp": "5",
+            "gf": "68",
+            "gc": "22",
+            "tp": "79"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Dominik Livaković",
+            "nationality": "Croata",
+            "age": "28",
+            "height": "188",
+            "weight": "82",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "6",
+            "name": "Josip Šutalo",
+            "nationality": "Croata",
+            "age": "22",
+            "height": "190",
+            "weight": "80",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "99",
+            "name": "Mislav Oršić",
+            "nationality": "Croata",
+            "age": "30",
+            "height": "179",
+            "weight": "72",
+            "position": "Extremo"
+          }
+        ],
+        "coach": "Ante Čačić"
+      },
+      {
+        "id": 34,
+        "name": "Red Bull Salzburg",
+        "yearfoundation": "1933",
+        "statistics": [
+          {
+            "pj": "32",
+            "pg": "25",
+            "pe": "5",
+            "pp": "2",
+            "gf": "77",
+            "gc": "19",
+            "tp": "80"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "18",
+            "name": "Philipp Köhn",
+            "nationality": "Suizo",
+            "age": "24",
+            "height": "194",
+            "weight": "85",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "39",
+            "name": "Maximilian Wöber",
+            "nationality": "Austriaco",
+            "age": "25",
+            "height": "188",
+            "weight": "82",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "9",
+            "name": "Noah Okafor",
+            "nationality": "Suizo",
+            "age": "22",
+            "height": "185",
+            "weight": "75",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Matthias Jaissle"
+      },
+      {
+        "id": 35,
+        "name": "Feyenoord",
+        "yearfoundation": "1908",
+        "statistics": [
+          {
+            "pj": "34",
+            "pg": "22",
+            "pe": "7",
+            "pp": "5",
+            "gf": "76",
+            "gc": "34",
+            "tp": "73"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Justin Bijlow",
+            "nationality": "Holandés",
+            "age": "25",
+            "height": "188",
+            "weight": "82",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Marcus Holmgren Pedersen",
+            "nationality": "Noruego",
+            "age": "22",
+            "height": "185",
+            "weight": "75",
+            "position": "Lateral"
+          },
+          {
+            "dorsal": "9",
+            "name": "Santiago Giménez",
+            "nationality": "Mexicano",
+            "age": "21",
+            "height": "182",
+            "weight": "75",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Arne Slot"
+      },
+      {
+        "id": 36,
+        "name": "Galatasaray",
+        "yearfoundation": "1905",
+        "statistics": [
+          {
+            "pj": "38",
+            "pg": "26",
+            "pe": "6",
+            "pp": "6",
+            "gf": "80",
+            "gc": "36",
+            "tp": "84"
+          }
+        ],
+        "players": [
+          {
+            "dorsal": "1",
+            "name": "Fernando Muslera",
+            "nationality": "Uruguayo",
+            "age": "36",
+            "height": "190",
+            "weight": "84",
+            "position": "Portero"
+          },
+          {
+            "dorsal": "4",
+            "name": "Victor Nelsson",
+            "nationality": "Danés",
+            "age": "24",
+            "height": "185",
+            "weight": "80",
+            "position": "Defensa central"
+          },
+          {
+            "dorsal": "10",
+            "name": "Mauro Icardi",
+            "nationality": "Argentino",
+            "age": "30",
+            "height": "181",
+            "weight": "75",
+            "position": "Delantero"
+          }
+        ],
+        "coach": "Okan Buruk"
+      }
+    ]
+  }
