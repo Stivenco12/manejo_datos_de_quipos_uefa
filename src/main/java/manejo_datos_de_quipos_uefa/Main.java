@@ -72,7 +72,7 @@ public class Main {
                         try {
                             servicio.mostrarEquiposConGolesTotales();
                         } catch (Exception e) {
-                            System.out.println("Error volviendo al menu");
+                            System.out.println("Error volviendo al menus");
                         }
                         break;
                 }
