@@ -160,4 +160,116 @@ public class EquiposRepositoryIMLP {
             });
         }
     }
+    public void listarEquiposConMasDe15Puntos(List<Equipos> equipos) {
+        Predicate<Equipos> filtroPuntos = equipo -> equipo.getStatistics().stream()
+                .anyMatch(stats -> stats.getTotalPoints() > 15);
+                equipos.stream()
+                .filter(filtroPuntos)
+                .forEach(e -> {
+                    int maxPuntos = e.getStatistics().stream()
+                                     .mapToInt(Statistics::getTotalPoints)
+                                     .max().orElse(0);
+                    System.out.println("Equipo: " + e.getName() + " - Puntos: " + maxPuntos);
+                });
+    }
+    public void calcularPromedioGolesAFavor(List<Equipos> equipos) {
+        double promedioGoles = equipos.stream()
+                .flatMap(equipo -> equipo.getStatistics().stream())
+                .collect(Collectors.averagingInt(Statistics::getGoalsFor)); 
+    
+        System.out.println("Promedio de goles a favor por equipo: " + promedioGoles);
+    }
+
+    public void mostrarEquipoConMasVictorias(List<Equipos> equipos) {
+        equipos.stream()
+            .max(Comparator.comparingInt(equipo -> equipo.getStatistics().stream()
+                .mapToInt(Statistics::getWonGames)
+                .sum()))
+            .ifPresent(equipo -> {
+                int totalVictorias = equipo.getStatistics().stream()
+                    .mapToInt(Statistics::getWonGames)
+                    .sum();
+                System.out.println("Equipo con más victorias: " + equipo.getName() + " (" + totalVictorias + " victorias)");
+            });
+    }
+
+    public void mostrarJugadorMasAlto(List<Equipos> equipos) {
+        equipos.stream()
+            .flatMap(equipo -> equipo.getPlayers().stream()) 
+            .max(Comparator.comparingInt(Player::getHeight)) 
+            .ifPresent(jugador -> 
+                System.out.println("Jugador más alto: " + jugador.getName() + " (" + jugador.getHeight() + " cm)")
+            );
+    }
+
+    public long contarDelanteros(List<Equipos> equipos) {
+        return equipos.stream()
+            .flatMap(equipo -> equipo.getPlayers().stream()) 
+            .filter(jugador -> "Delantero".equalsIgnoreCase(jugador.getPosition()))
+            .count(); 
+    }
+ 
+    public void obtenerEntrenadoresConEmpates(List<Equipos> equipos) {
+        List<String> entrenadores = equipos.stream()
+            .filter(equipo -> equipo.getStatistics().stream().anyMatch(stat -> stat.getDrawnGames() > 0)) 
+            .map(Equipos::getCoach) 
+            .distinct() 
+            .toList(); 
+    
+        System.out.println("Entrenadores con al menos un empate: " + entrenadores);
+    }
+    
+    public void mapearEquiposConGolesAFavor(List<Equipos> equipos) {
+        Map<String, Integer> golesPorEquipo = equipos.stream()
+            .collect(Collectors.toMap(
+                Equipos::getName, 
+                equipo -> equipo.getStatistics().stream().mapToInt(Statistics::getGoalsFor).sum() 
+            ));
+
+        System.out.println("Goles a favor por equipo: " + golesPorEquipo);
+    }
+    public void listarJugadoresBrasileñosOrdenadosPorEdad(List<Equipos> equipos) {
+        List<Player> jugadoresBrasileños = equipos.stream()
+            .flatMap(equipo -> equipo.getPlayers().stream()) 
+            .filter(jugador -> "Brasileño".equalsIgnoreCase(jugador.getNationality())) 
+            .sorted(Comparator.comparingInt(Player::getAge)) 
+            .collect(Collectors.toList()); 
+    
+        jugadoresBrasileños.forEach(jugador -> 
+            System.out.println(jugador.getName() + " - Edad: " + jugador.getAge()));
+    }
+
+    public void filtrarEquiposPorNombreEntrenador(List<Equipos> equipos) {
+        Predicate<Equipos> entrenadorLargo = equipo -> equipo.getCoach().length() > 10;
+    
+        List<Equipos> equiposFiltrados = equipos.stream()
+            .filter(entrenadorLargo)
+            .collect(Collectors.toList()); 
+    
+        equiposFiltrados.forEach(equipo -> 
+            System.out.println(equipo.getName() + " - Entrenador: " + equipo.getCoach()));
+    }
+
+    public boolean algunEquipoConMasDe25Puntos(List<Equipos> equipos) {
+        return equipos.stream()
+            .anyMatch(equipo -> equipo.getStatistics().stream()
+                .anyMatch(stat -> stat.getTotalPoints() > 25));
+    }
+
+    public Map<String, Long> contarJugadoresPorPosicion(List<Equipos> equipos) {
+        return equipos.stream()
+            .flatMap(equipo -> equipo.getPlayers().stream())
+            .collect(Collectors.groupingBy(Player::getPosition, Collectors.counting()));
+    }
+
+    public List<Equipos> equiposConMasDe20Goles(List<Equipos> equipos) {
+        return equipos.stream()
+            .filter(equipo -> equipo.getStatistics().stream()
+                .anyMatch(stat -> stat.getGoalsFor() > 20))
+            .sorted((e1, e2) -> Integer.compare(
+                e2.getStatistics().stream().mapToInt(Statistics::getGoalsFor).sum(),
+                e1.getStatistics().stream().mapToInt(Statistics::getGoalsFor).sum()
+            )) 
+            .collect(Collectors.toList());
+    }
 }
